@@ -17,3 +17,4 @@ phases:
       - docker tag my-react-app:latest $DOCKER_USERNAME/my-react-app:latest
       - echo "Pushing the Docker image to Docker Hub..."
       - docker push $DOCKER_USERNAME/my-react-app:latest
+
